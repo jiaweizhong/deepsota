@@ -1,55 +1,203 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>DeepSOTA AI — Information</title>
-  <meta name="description" content="Basic information and contact for Your LLC." />
-  <style>
-    :root { --bg:#0b0c0f; --card:#12141a; --text:#eef0f3; --muted:#a6adbb; --accent:#7cd4fd; }
-    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
-    .wrap{max-width:880px;margin:0 auto;padding:40px 20px}
-    .card{background:var(--card);border:1px solid #222631;border-radius:16px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
-    h1{font-size:28px;margin:0 0 6px} h2{font-size:18px;margin:24px 0 10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
-    p{margin:10px 0} a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
-    .grid{display:grid;gap:14px}
-    @media (min-width:700px){ .grid{grid-template-columns:1fr 1fr} }
-    .badge{display:inline-block;background:#1b2030;border:1px solid #2a3142;border-radius:999px;padding:6px 10px;color:var(--muted);font-size:13px}
-    .footer{margin-top:16px;color:#98a2b3;font-size:14px}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DeepSOTA AI — State‑of‑the‑Art Research & Algorithms</title>
+  <meta name="description" content="DeepSOTA AI: Research & engineering of state‑of‑the‑art machine learning and AI algorithms." />
+  <meta property="og:title" content="DeepSOTA AI" />
+  <meta property="og:description" content="State‑of‑the‑Art research and algorithm development." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/logo.svg" />
+  <meta name="theme-color" content="#1f6feb" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "DeepSOTA AI",
+    "url": "https://your-username.github.io/deepsota-ai/",
+    "logo": "https://your-username.github.io/deepsota-ai/assets/logo.svg",
+    "sameAs": ["https://github.com/your-username"]
+  }
+  </script>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card">
-      <span class="badge">Your LLC</span>
-      <h1>We provide ________</h1>
-      <p>Short positioning sentence about your services and area served.</p>
+  <a class="skip-link" href="#intro">Skip to content</a>
 
-      <div class="grid">
-        <div>
-          <h2>Contact</h2>
-          <p>Email: <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
-          <p>Phone: <a href="tel:+1XXXXXXXXXX">+1 (XXX) XXX-XXXX</a></p>
-          <p>Address: City, State</p>
-        </div>
-        <div>
-          <h2>Business Details</h2>
-          <p>LLC: Your LLC (State)</p>
-          <p>EIN: —</p>
-          <p>Hours: Mon–Fri, 9am–5pm</p>
+  <header class="site-header" id="home">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img src="assets/logo.svg" alt="DeepSOTA AI logo" />
+        <span>DeepSOTA AI</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary">
+        <a href="#intro">Intro</a>
+        <a href="#services">Services</a>
+        <a href="#careers">Careers</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-drawer" aria-label="Mobile">
+      <a href="#intro">Intro</a>
+      <a href="#services">Services</a>
+      <a href="#careers">Careers</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-copy">
+        <h1>From <span class="accent">research</span> to <span class="accent">SOTA</span> production AI.</h1>
+        <p>We design, evaluate, and ship cutting‑edge algorithms for perception, medical imaging, and intelligent systems—grounded in rigorous experimentation and benchmark‑driven development.</p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">Work with us</a>
+          <a class="btn ghost" href="#services">Our services</a>
         </div>
       </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="assets/logo.svg" alt="" />
+      </div>
+    </section>
+  </header>
 
-      <h2>Links</h2>
-      <p>
-        <a href="https://www.airbnb.com/users/show/your-id" target="_blank" rel="noopener">Airbnb Profile</a> ·
-        <a href="#" target="_blank" rel="noopener">Booking / Inquiry Form</a> ·
-        <a href="/privacy.html">Privacy</a>
-      </p>
+  <main>
+    <section id="intro" class="section container">
+      <h2 class="section-title">About DeepSOTA AI</h2>
+      <p class="lead">DeepSOTA AI is an R&amp;D company focused on state‑of‑the‑art machine learning. We partner with teams to prototype, benchmark, and deploy high‑impact models with an emphasis on reliability, efficiency, and measurable gains.</p>
+      <ul class="pill-list">
+        <li>Research consulting</li>
+        <li>Model design &amp; optimization</li>
+        <li>Evaluation &amp; benchmarking</li>
+        <li>Productionization</li>
+      </ul>
+    </section>
 
-      <p class="footer">© <span id="y"></span> Your LLC. All rights reserved.</p>
+    <section id="services" class="section container">
+      <h2 class="section-title">Services</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">🔬</div>
+          <h3>Algorithm Research</h3>
+          <p>Novel architectures, ablations, and literature‑informed exploration targeting real‑world constraints.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⚙️</div>
+          <h3>Model Engineering</h3>
+          <p>Training pipelines, distillation, quantization, and latency‑aware optimization for edge and cloud.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📈</div>
+          <h3>Evaluation &amp; SOTA Tracking</h3>
+          <p>Reproducible benchmarks, leaderboard analysis, and decision‑grade reporting.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🚀</div>
+          <h3>Deployment</h3>
+          <p>Serving, monitoring, and continuous improvement loops that keep models SOTA post‑launch.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="careers" class="section container">
+      <h2 class="section-title">Careers</h2>
+      <p class="lead">We’re assembling a compact, world‑class team. Remote‑friendly. If you’re obsessed with pushing baselines, we’d love to hear from you.</p>
+      <div class="jobs">
+        <article class="job">
+          <h3>Senior Research Scientist</h3>
+          <ul>
+            <li>Deep learning for perception/medical imaging.</li>
+            <li>Strong publications or SOTA leaderboard wins.</li>
+            <li>Comfort with rigorous experimentation and writing.</li>
+          </ul>
+          <a class="btn tiny" href="mailto:jobs@deepsota.ai?subject=Senior%20Research%20Scientist%20Application">Apply via Email</a>
+        </article>
+        <article class="job">
+          <h3>ML Engineer (Optimization)</h3>
+          <ul>
+            <li>Distillation, quantization, compilers, serving.</li>
+            <li>Profiling, memory/FLOP reduction, throughput tuning.</li>
+          </ul>
+          <a class="btn tiny" href="mailto:jobs@deepsota.ai?subject=ML%20Engineer%20(Optimization)%20Application">Apply via Email</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="news" class="section container">
+      <h2 class="section-title">News</h2>
+      <ul class="news-list">
+        <li>
+          <time datetime="2025-10-01">Oct 2025</time>
+          <span>Introduced DeepSOTA AI—research‑first AI development studio.</span>
+        </li>
+        <li>
+          <time datetime="2025-10-05">Oct 2025</time>
+          <span>Released open logo and website starter for GitHub Pages.</span>
+        </li>
+      </ul>
+      <p class="muted">Tip: Replace this list with your own updates in <code>index.html</code> or fetch from a JSON file.</p>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p class="lead">Let’s discuss your problem space, constraints, and success criteria.</p>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:hello@deepsota.ai">hello@deepsota.ai</a></li>
+            <li>GitHub: <a href="https://github.com/your-username" target="_blank" rel="noreferrer">github.com/your-username</a></li>
+            <li>LinkedIn: <a href="#" target="_blank" rel="noreferrer">Company Page</a></li>
+          </ul>
+        </div>
+        <form class="contact-form" action="mailto:hello@deepsota.ai" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us about your project…" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+          <p class="muted tiny">This form uses <code>mailto:</code> for GitHub Pages. For a richer form, connect Formspree or a server endpoint.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container ftr">
+      <div class="ftr-brand">
+        <img src="assets/logo.svg" alt="" />
+        <span>DeepSOTA AI</span>
+      </div>
+      <nav class="ftr-links" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#careers">Careers</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="copyright">© <span id="year"></span> DeepSOTA AI. All rights reserved.</p>
     </div>
-  </div>
-  <script>document.getElementById("y").textContent = new Date().getFullYear()</script>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
